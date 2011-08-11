@@ -1,5 +1,5 @@
 class SpreeSpecialOffersHooks < Spree::ThemeSupport::HookListener
-  insert_after :admin_product_tabs, "admin/products/special_offers"
+  insert_after :admin_product_form_right, "admin/products/special_offer_fields"
   
   insert_after :admin_configurations_menu do
     "<%= configurations_menu_item(I18n.t('special_offers'), admin_special_offers_path, I18n.t('special_offers_desc')) %>"

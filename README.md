@@ -8,7 +8,7 @@ Spree Special Offers
 ==============
 
 Gemfile:  
-`gem 'spree_special_offers', :git => 'git://github.com/secoint/synergy_special_offers.git'`
+`gem 'spree_special_offers', :git => 'git://github.com/secoint/spree_special_offers.git'`
 
 
     bundle install
@@ -33,7 +33,7 @@ Gemfile:
 
 Включение расширения: Админ-Конфигурация-Спецпредложения; здесь же задается имя html блока.
 
-Для добавления товаров в блок, нужно указать у товара опцию спецпредложений (Редактирование товара-Спецпредложения).
+Для добавления товаров в блок, нужно указать у товара опцию спецпредложений снизу в форме (Админ-Редактирование товара).
 
 
 Copyright (c) 2011 Pavel Belyakov, Service & Consulting (http://secoint.ru)

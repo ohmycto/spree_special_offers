@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   # s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
 
-  s.author            = 'Pavel Belyakov'
-  s.email             = 'me@puffy.name'
-  s.homepage          = 'http://github.com/ssherif/spee_special_offers'
+  s.author            = 'Pavel Belyakov (Service & Consulting)'
+  s.email             = 'service@secoint.ru'
+  s.homepage          = 'http://github.com/secoint/spee_special_offers'
   s.rubyforge_project = 'spree_special_offers'
 
   s.files         = `git ls-files`.split("\n")
