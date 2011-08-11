@@ -1,0 +1,14 @@
+<%= render :partial => 'admin/shared/product_sub_menu' %>
+
+<%= render :partial => 'admin/shared/product_tabs', :locals => {:current => "Special Offers"} %>
+
+<%= csrf_meta_tag %>
+
+<%= form_for @product, :url => admin_product_path(@product) do |f| %>
+  <%= f.check_box :special_offer %>
+  <%= f.label :special_offer %>
+  
+  <%= hook :admin_relation_type_edit_form_buttons do %>
+    <%= render :partial => "admin/shared/edit_resource_links" %>
+  <% end %>
+<% end -%>

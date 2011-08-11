@@ -1,0 +1,10 @@
+ru:
+  special_offers: "Спецпредложения"
+  enable_special_offers: "Включить блок спецпредложений"
+  special_offers_block_name: "Имя блока спецпредложений"
+  special_offers_desc: "Настройки блока специальных предложений"
+  
+  activerecord:
+    attributes:
+      product:
+        special_offer: "Добавить в спецпредложения?"

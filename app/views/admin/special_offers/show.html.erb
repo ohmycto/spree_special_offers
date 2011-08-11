@@ -1,0 +1,16 @@
+<%= render :partial => 'admin/shared/configuration_menu' %>
+
+<h1><%= t("special_offers") %></h1>
+
+<table>
+  <tr>
+    <td><%= t 'enable_special_offers' %></td>
+    <td><%= Spree::SpecialOffers::Config[:enabled] ? t("yes") : t("no") %></td>
+  </tr>
+  <tr>
+    <td><%= t 'special_offers_block_name' %></td>
+    <td>'<%= Spree::SpecialOffers::Config[:block_name] %>'</td>
+  </tr>
+</table>
+
+<p><%= link_to_with_icon 'edit', t("edit"), edit_admin_special_offers_path %></p>
