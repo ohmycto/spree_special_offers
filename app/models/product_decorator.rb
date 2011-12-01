@@ -1,3 +1,3 @@
 Product.class_eval do
-  scope :special_offers, where(:special_offer => true)
+  scope :special_offers, lambda { active.where(:special_offer => true) }
 end
